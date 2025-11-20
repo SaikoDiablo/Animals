@@ -1,4 +1,4 @@
-# Animal Hierarchy Lab — Java Inheritance & Interfaces
+# Java Inheritance & Interfaces
 
 This project demonstrates **multi-level inheritance** and **interface usage** in Java, featuring an abstract base class and three custom interfaces.
 
