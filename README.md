@@ -12,7 +12,7 @@ Animal (abstract)
 └── Bird (abstract)
 └── Pigeon
 
-## 🔌 Interfaces Implemented
+## Interfaces Implemented
 
 1. **AnimalBehavior**  
    - Abstract method: `sleep()`  
