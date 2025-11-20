@@ -1,18 +1,33 @@
-## Getting Started
+# Animal Hierarchy Lab — Java Inheritance & Interfaces
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project demonstrates **multi-level inheritance** and **interface usage** in Java, featuring an abstract base class and three custom interfaces.
 
-## Folder Structure
+## Class Hierarchy
 
-The workspace contains two folders by default, where:
+Animal (abstract)
+├── Mammal (abstract)
+│ └── Dog
+├── Fish(abstract)
+│ └── Blowfish
+└── Bird (abstract)
+└── Pigeon
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🔌 Interfaces Implemented
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. **AnimalBehavior**  
+   - Abstract method: `sleep()`  
+   - Implemented by: `Dog`, `Pigeon`, `Blowfish`
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+2. **AnimalMove**  
+   - Default method: `move()` (overridden in leaf classes)  
+   - Implemented by all classes via `Animal`
 
-## Dependency Management
+3. **AnimalName**  
+   - Static method: `name(String)` — prints animal names
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## How to Run
+
+1. Open your terminal in the project root directory (where the `animals` folder is located).
+2. **Compile all Java files**:
+   ```bash
+   javac animals/*.java
