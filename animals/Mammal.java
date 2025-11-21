@@ -1,5 +1,3 @@
-
-
 public abstract class Mammal extends Animal {
     protected boolean withFur;
     public Mammal(){
