@@ -22,12 +22,12 @@ public class Main {
         ((Pigeon) animals[3]).fly();
         ((Blowfish)animals[4]).puffUp();
 
-        System.out.println("=== Animal Movement ===");
+        System.out.println("*** Animal Movement ***");
         for (Animal animal : animals) {
             animal.move(); 
         }
 
-        System.out.println("\n=== Animal Names ===");
+        System.out.println("\n*** Animal Names ***");
         for (Animal animal : animals) {
             AnimalName.name(animal.getName()); 
         }
@@ -38,7 +38,7 @@ public class Main {
             new Blowfish("Spike")
         };
 
-        System.out.println("\n=== Animal Sleep Behavior ===");
+        System.out.println("\n*** Animal Sleep Behavior ***");
         for (int i = 0; i < behaviors.length; i++) {
             System.out.println("--- Behavior " + (i + 1) + " ---");
             behaviors[i].sleep(); 
