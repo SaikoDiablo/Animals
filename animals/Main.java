@@ -40,7 +40,7 @@ public class Main {
 
         System.out.println("\n*** Animal Sleep Behavior ***");
         for (int i = 0; i < behaviors.length; i++) {
-            System.out.println("--- Behavior " + (i + 1) + " ---");
+            System.out.println(" Behavior " + (i + 1) );
             behaviors[i].sleep(); 
         }
 
