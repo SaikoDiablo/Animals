@@ -1,4 +1,3 @@
-
 public abstract class Bird extends Animal{
     protected String featherColor;
 
