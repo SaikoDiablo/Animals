@@ -1,5 +1,3 @@
-
-
 public  abstract class Fish extends Animal {
     protected boolean isInOcean;
 
