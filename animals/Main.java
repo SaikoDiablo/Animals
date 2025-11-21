@@ -5,7 +5,6 @@ public class Main {
         animals[0] = new Dog();
         animals[1] = new Dog("Richy");
         animals[2] = new Dog("Fluff",5, 35.5,true,"Siberian husky");
-
         animals [3] = new Pigeon("Sky");
         animals[4] = new Blowfish("Buble", 1, 1.2, true, false);
         animals[5] = new Blowfish();
